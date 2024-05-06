@@ -3,6 +3,7 @@ console.log(1 + +"2" + "2");
 console.log(1 + -"2" + "2");
 console.log("A" - "B" + "2");
 console.log(1 + 1 + "a" + 1 + 1);
+console.log(1+"1"-1+"1"+1);
 
 //Hoisting
 var a = 10;
@@ -35,6 +36,16 @@ console.log(person[2].name);
 console.log(person[2].price.min);
 
 //context-this
+function func() {
+console.log(this.a)
+}
+func();
+const func = () => {
+console.log(this.a)
+}
+func();
+
+
 function func() {
   return this.a + this.b;
 }
