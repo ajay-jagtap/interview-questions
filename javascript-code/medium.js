@@ -145,7 +145,7 @@ Output: emocleW ot eht tnemtif !!dnuor
 const input = "Welcome to the fitment round!!";
 console.log(input);
 const output = input.split(' ').map(word => {
-return word.split('').reduceRight((acc, item) => {return acc+item}, '');
+return word.split('').reduceRight((acc, item) => acc+item, '');
 //return word.split('').reverse().join('');
 }).join(' ');
 console.log(output);
