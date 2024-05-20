@@ -138,4 +138,15 @@ const freddie = new Chameleon({ newColor: "purple" });
 console.log(freddie.colorChange("orange"));
 console.log(freddie.newColor);
 
+/* Please write a program to reverse each word but maintiane the order.
+Input : Welcome to the fitment round!!
+Output: emocleW ot eht tnemtif !!dnuor
+*/
+const input = "Welcome to the fitment round!!";
+console.log(input);
+const output = input.split(' ').map(word => {
+return word.split('').reduceRight((acc, item) => {return acc+item}, '');
+//return word.split('').reverse().join('');
+}).join(' ');
+console.log(output);
 
