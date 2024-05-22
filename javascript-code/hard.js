@@ -33,3 +33,7 @@ const flattenUsingMap = (arr) => {
 };
 console.log(flattenUsingMap(array));
 
+// given array of numbers in unordered way-can have duplicated
+// 1. find couple of pairs with addition of 10 (this can be duplicate pair as well)
+// 2. list all those numbers which are not included in pairs
+const input = [1,2,5,9,2,4,7,2,3,7,5,8]
