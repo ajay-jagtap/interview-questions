@@ -150,3 +150,7 @@ return word.split('').reduceRight((acc, item) => acc+item, '');
 }).join(' ');
 console.log(output);
 
+// find no which is having maximum occurences
+[1, 2, 3, 1, 2, 1]; => 1
+
+
