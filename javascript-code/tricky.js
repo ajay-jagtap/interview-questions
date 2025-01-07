@@ -50,8 +50,8 @@ console.log(str[1]); //e
 
 
 // Circular referencing Concept
-let obj =  {
-name: 'hello'
+let obj = {
+  name: 'hello'
 }
 obj.obj = obj;
 console.log(obj)

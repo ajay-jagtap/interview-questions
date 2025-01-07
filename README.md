@@ -1,5 +1,7 @@
 # Interview Questions for Javascript, Angular, React & Node 
 
+### [Javascript](javascript.md)
+
 ### [Angular](angular.md)
 
 ### [React](react.md)
