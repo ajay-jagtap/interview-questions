@@ -153,4 +153,40 @@ console.log(output);
 // find no which is having maximum occurences
 [1, 2, 3, 1, 2, 1]; => 1
 
+// Write function findObj to find value based on key path provided
+var obj = {
+ a: {
+   b: {
+     c: 'Globant',
+   },
+   d: 1234,
+   e: false,
+   f: {
+     j: null,
+   },
+ },
+};
+// Testing the function with given examples
+console.log(findObj(obj, 'a.b.c')); // Output: Globant
+console.log(findObj(obj, 'a.b')); // Output: { c: 'Globant' }
+console.log(findObj(obj, 'a.b.c.d')); // Output: undefined
+
+const findObj = (obj, key) => {
+    const path = key.split('.'); //[a,b,c]
+    const result = path.reduce((acc, item) => {
+        return acc[item]
+    }, obj)
+    return result;
+}
+
+
+console.log("Start"); 
+setTimeout(() => { console.log("Timeout"); }); 
+Promise.resolve().then(() => console.log("Promise")); 
+console.log("End");
+
+getData1();
+getData(); 
+function getData1(){ console.log("getData1") } 
+var getData = () => { console.log("Hello") }
 
