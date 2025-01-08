@@ -6,6 +6,10 @@ console.log("A" - "B" + "2");
 console.log(1 + 1 + "a" + 1 + 1);
 console.log(1 + "1" - 1 + "1" + 1);
 
+let x = 1
+x = x++
+console.log(x) // 1
+
 
 // Hoisting
 var a = 10;
