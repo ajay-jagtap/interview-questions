@@ -10,6 +10,10 @@ let x = 1
 x = x++
 console.log(x) // 1
 
+let str = "Hello"
+str[0] = 'World';
+console.log(str) // Hello
+
 
 // Hoisting
 var a = 10;
@@ -178,12 +182,12 @@ console.log(hh);
 console.log(abc);
 
 
-let x = {},
-    y = { name: "Ronny" },
-    z = { name: "John" };
-x[y] = { name: "Vivek" };
-x[z] = { name: "Akki" };
-console.log(x);
+let p = {},
+    q = { name: "Ronny" },
+    r = { name: "John" };
+p[q] = { name: "Vivek" };
+p[r] = { name: "Akki" };
+console.log(p);
 // [object,object]:{
 // name:"Akki"
 // }

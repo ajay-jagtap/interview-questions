@@ -1,17 +1,17 @@
-1) Closer
-2) Datatype
-3) hoisting
-4) ES6 concept
-5) arrow function
-6) Inheritance
-7) await and promise
-8) filter and find
-9) map and for
-10) var and let
-11) Spread Operator
-12) pure fuction
-13) Array.from
-14) What is the difference between Call, Apply and Bind
-15) What are lambda or arrow functions
-16) What is the currying function, unary function
-17) Object.groupBy Method for grouping
+Closer
+Datatype
+hoisting
+ES6 concept
+arrow function
+Inheritance
+await and promise
+filter and find
+map and for
+var and let
+Spread Operator
+pure fuction
+Array.from
+What is the difference between Call, Apply and Bind
+What are lambda or arrow functions
+What is the currying function, unary function
+Object.groupBy Method for grouping
