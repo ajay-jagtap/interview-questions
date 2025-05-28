@@ -1,61 +1,60 @@
-What are server side events?
-Explain websocket flow
-What are the alternatives to websocket for unidirectional real-time communication?
-Explaining Redux flow
-Redux vs redux toolkit?
-How to handle authentication on client side?
-How to make common logic accessible (eg. auth) to all the components? 
-Write error boundaries using the hook or class component life cycle method?
+# React Interview Questions Notes
 
-Difference between slice splice and which is mutable?
-event phases and stopPropagation and stopImmediatePropagation?
-Object. preventExtension
-Promise.AllSetteted
+This repository contains commonly asked React and frontend interview questions categorized for easy reference.
 
-What are the controlled components in react?
-What is HOC and what are the benefits?
- write a useReducer that can perform different operations on arrays like (add,remove,AddonIndex, removeFromIndex,search)?
-explain useDeferredValue and useLayoutEffect?
-explain useRef and useImperativeHandle?
+---
 
-What is a micro-frontend? How will you communicate within modules?
-What are web-workers?
-What are web sockets?
-What is SSE (server sent events)? Explain the workflow and syntax?
-What are error-boundaries? How can you implement error boundaries using functional component?
-What are HOC’s? Can we use HOC to implement error-boundaries?
-Context API?
-How to use context API?
-Redux vs Redux toolkit
-Immer
-React memo
-useCallback vs useMemo?
-Scenario based questions on class vs function components
+## 📌 Basic React Questions
 
-Your role in previous project and tech stack
+- Explain how the Virtual DOM works in React.js.
+- What are React Hooks, and why were they introduced?
+- How do you manage state in React applications?
+- Explain the Context API and its typical use cases.
+- What is the use of `useEffect` React Hook?
+- What is the difference between `useEffect` and `useLayoutEffect`?
+- How does React’s component lifecycle work, and how has it changed with the introduction of hooks?
+- How do you handle side effects in React components?
+- What is the difference between controlled and uncontrolled components?
+- What is prop drilling, and how can it be avoided in React?
+- What is the significance of keys in React, and how do they work in lists?
+- What are error boundaries? How can you implement error boundaries using functional components?
+- What are higher-order components (HOCs) in React, and when should you use them?
+- How do you handle code reusability in React?
+- How to pass data between sibling components using React Router?
+- Explain conditional rendering in React.
+- How to prevent unnecessary re-renders in React?
+- What is `React.memo`, and how does it help with performance optimization?
+- What are React portals, and when would you use them?
+- How would you optimize the performance of a React application?
+- What is server-side rendering (SSR) in React, and what are its benefits?
+- What is the difference between `useCallback` and `useMemo`?
+- Explain `useDeferredValue` and `useLayoutEffect`.
+- Explain `useRef`, `forwardRef`, and `useImperativeHandle`.
 
-How to create react app and how to define the folder structure
+---
 
-What is microfrontend and how it works ?
+## 🌐 Common Frontend & Architecture Questions
 
-What is webpack?
+- What are server-side events?
+- Explain the Redux flow.
+- What’s the difference between Redux and Redux Toolkit?
+- How do you handle authentication on the client side?
+- How do you make common logic (e.g., auth) accessible to all components?
+- What is a microfrontend, and how does it work?
+- What are web workers?
+- What are WebSockets?
+- What are alternatives to WebSocket for unidirectional real-time communication?
+- What is Webpack?
 
-How to share data between microfrontend module ?
+---
 
-How to deploy app using microfrontend and what is Module Federation ?
+## ✅ Usage
 
-How to cloning the dynamic props in react app ?
+This list is meant for quick review and preparation.  
+Feel free to fork this repo, add your own notes, and expand the answers!
 
-How to apply Memorization in react js
+---
 
-What is React memo?
+## 📚 License
 
-useCallback vs useMemo?
-
-How to prevent child component re-render with using useCallback
-
-Error boundary in functional component.
-
-How to implement error boundary in large scale project where several functional components required error boundary?
-
-How Hoc works?
+This project is open-source and available under the [MIT License](LICENSE).
