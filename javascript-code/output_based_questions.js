@@ -14,6 +14,13 @@ let str = "Hello"
 str[0] = 'World';
 console.log(str) // Hello
 
+let nums = [1,2,3,4,5]
+delete nums[2]
+console.log(nums)
+
+var foo = function bar(e){ return 12*e };
+console.log(foo( 3),111)
+
 
 // Hoisting
 var a = 10;
@@ -180,6 +187,15 @@ const hh = abc;
 delete hh.df;
 console.log(hh);
 console.log(abc);
+
+
+let obj = { name: 'David' };
+let newObj = obj;
+console.log(obj); // { name: 'David' }
+console.log(newObj); // { name: 'David' }
+obj = null;
+console.log(obj); // null
+console.log(newObj); // { name: 'David' }
 
 
 let p = {},
